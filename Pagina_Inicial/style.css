@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+    
+section{
+    background-color: blue;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.pg_inicial-conteudo{
+    background-color: bisque;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    box-shadow: 1px 3px 3px black;
+}
+
+.sobre-mim{
+    background-color: bisque;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
