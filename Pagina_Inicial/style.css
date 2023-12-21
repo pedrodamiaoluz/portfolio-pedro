@@ -20,6 +20,7 @@ section{
     padding: 20px;
 }
 
+
 .pg_inc-conteudo{
     background-color: #e0decb;
     width: 800px;
@@ -33,7 +34,7 @@ section{
     width: 350px;
     height: 400px;
     margin-left: 56.3%;
-   
+    display: flex;
 }
 
 .inc_img{
@@ -41,12 +42,12 @@ section{
     height: 400px; 
 }
 
-.inc_bloco_menu{
+/*.inc_bloco_menu{
     background-color: aqua;
     width: 100px;
     height: 400px;
     margin-right: 100px;
-}
+}*/
 
 .sobre-mim{
     background-color: #e0decb;
