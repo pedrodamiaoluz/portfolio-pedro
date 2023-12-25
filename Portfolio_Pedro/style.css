@@ -41,12 +41,18 @@ section{
     transform: translate(-50%, -50%);
 }
 
-.h1_inc_titulo, p{
+.h1_inc_titulo{
     text-align: center;
     color: #0e9094;
     font-weight: bold;
-
 }
+
+.p_inc_titulo{
+    color: #0e9094;
+    font-weight: bold;
+    margin-top: -5px;
+  }
+
 
 .inc_bloco_imagem{
     background-color: #e0decb;
@@ -91,13 +97,29 @@ section{
 }
 
 .conteudo_sobre_mim{
-    background-color: red;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 50px;
+    background-color: #e0decb;
+    width: 50%;
+    margin-left: 20px;
 }
 
+.conteudo{
+    text-align: center;
+    color: #0e9094;
+}
+
+.h2_conteudo{
+    padding-top: 30%;
+    text-align: center;
+    font-size: 25px;
+    color: #0e9094;
+}
+
+.p_conteudo{
+  text-align: justify;
+  font-size: 17px;
+  padding: 10px;
+  color: black;
+}
 
 
 .menu_sb_mim{
@@ -131,7 +153,7 @@ section{
     margin-top: 13px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .menu_principal_sobre_mim{
@@ -142,3 +164,58 @@ section{
     margin-right: 20px;
     border-radius: 50px;
 }
+
+.projeto_container{
+    background-color: #e0decb;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 1px 3px 3px #979584;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;  
+}
+
+.menu_projeto{
+    background-color: #b0ae9c;
+    width: 200px;
+    height: 400px;
+
+}
+
+.header_menu_progeto{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.img_bloco_proj{
+    background-color: #b0ae9c;
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+}
+
+.img_proj{
+    width: 150px;
+    height: 150px;
+}
+
+.menu_principal_progetos{
+    background-color: red;
+    background-color: #b0ae9c;
+    width: 50px;
+    height: 300px;
+    margin-top: 50px;
+    margin-right: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+

@@ -8,23 +8,23 @@
     <link rel="import" href="component.html">
 </head>
 <body>
-    <section> <!--Section do conteudo da pagina Principal-->
+    <section id="pg_inicial"> <!--Section do conteudo da pagina inicial-->
         <div class="pg_inc-conteudo">
             
             <div class="inc_titulo">
                 <h1 class="h1_inc_titulo">Pedro Damião</h1>
-                <p>DESENVOLVEDOR FRONT-END</p>
+                <p class="p_inc_titulo">DESENVOLVEDOR FRONT-END</p>
             </div>
 
             <div class="inc_bloco_menu">
                 <header>
-                    <a href="">
+                    <a href="#pg_inicial">
                         <img class="img_menu" src="./imagem/pagina_inicial.jpg" alt="#">
                      </a>
                      <a href="#sobre-mim">
                          <img class="img_menu" src="./imagem/sobre_mim.jpg" alt="#">
                       </a>
-                      <a href="">
+                      <a href="#progetos">
                          <img class="img_menu" src="./imagem/projeto.jpg" alt="#">
                       </a>
                       <a href="">
@@ -46,63 +46,111 @@
                 <img class="inc_img" src="./imagem/pedro.png" alt="#">
             </div>
         </div>
-    </section>
-
-    <section id="sobre-mim"> <!--Section sobre mim-->
-        <div class="sobre-mim">
-            <div class="menu_sb_mim">
-                <div class="img_menu_sobre_mim">
-                    <img class="img_sobre_mim" src="./imagem/pedro.png" alt="#">
-                </div>
-                <header>
-                    <div class="header_menu">
-                        <a class="header_menu_sb_mim" href="#">Pagina Inicial</a>
-                        <a class="header_menu_sb_mim" href="#">Sobre Mim</a>
-                        <a class="header_menu_sb_mim" href="#">Progetos</a>
-                        <a class="header_menu_sb_mim" href="#">Experiencia Proficional</a>
-                        <a class="header_menu_sb_mim" href="#">Habilidade</a>
-                        <a class="header_menu_sb_mim" href="#">Currículo</a>
-                        <a class="header_menu_sb_mim" href="#">Contato</a>
+        <section id="sobre-mim"> <!-- Section sobre mim-->
+            <div class="sobre-mim">
+                <div class="menu_sb_mim">
+                    <div class="img_menu_sobre_mim">
+                        <img class="img_sobre_mim" src="./imagem/pedro.png" alt="#">
                     </div>
-                </header>
-            </div>
-            <div class="menu_principal_sobre_mim">
-                <header>
-                    <a href="">
-                        <img class="img_menu" src="./imagem/pagina_inicial.jpg" alt="#">
-                     </a>
-                     <a href="">
-                         <img class="img_menu" src="./imagem/sobre_mim.jpg" alt="#">
-                      </a>
-                      <a href="">
-                         <img class="img_menu" src="./imagem/projeto.jpg" alt="#">
-                      </a>
-                      <a href="">
-                         <img class="img_menu" src="./imagem/experiencia_proficional.jpg" alt="#">
-                      </a>
-                      <a href="">
-                         <img class="img_menu" src="./imagem/habilidade.jpg" alt="#">
-                      </a>
-                      <a href="">
-                         <img class="img_menu" src="./imagem/corriculo.jpg" alt="#">
-                      </a>
-                      <a href="">
-                         <img class="img_menu" src="./imagem/contato.jpg" alt="#">
-                      </a>
-                </header>
-            </div>
-            <div class="conteudo_sobre_mim">
-                <div class="conteudo">
-                    <h2>Ola Mim chamo Pedro Damião</h2>
-                    <!--<p>
-                      Sou aluno que está graduando em Bacharelado em Tecnologia da informação na Univesidade Federal Ufersa( no Campos de Pau dos Ferros),e gostos muito da area de DESENVOLVEDOR FRONT-END e cada veis mas quero se expesialisar nessa aria que adimiro muito.
-                    </p>-->
+                    <header>
+                        <div class="header_menu">
+                            <a class="header_menu_sb_mim" href="#">Pagina Inicial</a>
+                            <a class="header_menu_sb_mim" href="#">Sobre Mim</a>
+                            <a class="header_menu_sb_mim" href="#">Progetos</a>
+                            <a class="header_menu_sb_mim" href="#">Experiencia Proficional</a>
+                            <a class="header_menu_sb_mim" href="#">Habilidade</a>
+                            <a class="header_menu_sb_mim" href="#">Currículo</a>
+                            <a class="header_menu_sb_mim" href="#">Contato</a>
+                        </div>
+                    </header>
+                </div>
+                <div class="conteudo_sobre_mim">
+                    <div class="conteudo">
+                        <h2 class="h2_conteudo">Ola Mim chamo Pedro Damião</h2>
+                        <p class="p_conteudo">
+                          Sou aluno que está graduando em Bacharelado em Tecnologia da informação na Univesidade Federal Ufersa( no Campos de Pau dos Ferros),e gostos muito da area de DESENVOLVEDOR FRONT-END e cada veis mas quero se expesialisar nessa aria que adimiro muito.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu_principal_sobre_mim">
+                    <header>
+                        <a href="#pg_inicial">
+                            <img class="img_menu" src="./imagem/pagina_inicial.jpg" alt="#">
+                         </a>
+                         <a href="#sobre-mim">
+                             <img class="img_menu" src="./imagem/sobre_mim.jpg" alt="#">
+                          </a>
+                          <a href="#progetos">
+                             <img class="img_menu" src="./imagem/projeto.jpg" alt="#">
+                          </a>
+                          <a href="">
+                             <img class="img_menu" src="./imagem/experiencia_proficional.jpg" alt="#">
+                          </a>
+                          <a href="">
+                             <img class="img_menu" src="./imagem/habilidade.jpg" alt="#">
+                          </a>
+                          <a href="">
+                             <img class="img_menu" src="./imagem/corriculo.jpg" alt="#">
+                          </a>
+                          <a href="">
+                             <img class="img_menu" src="./imagem/contato.jpg" alt="#">
+                          </a>
+                    </header>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section id="progetos"><!--section Sobre meus Progetos-->
+            <div class="projeto_container">
+                <div class="menu_projeto">
+                    <div class="img_bloco_proj">
+                         <img class="img_proj" src="./imagem/pedro.png" alt="#">
+                    </div>
+                    <header>
+                        <div class="header_menu">
+                            <a class="header_menu_progeto" href="#">Pagina Inicial</a>
+                            <a class="header_menu_progeto" href="#">Sobre Mim</a>
+                            <a class="header_menu_progeto" href="#">Progetos</a>
+                            <a class="header_menu_progeto" href="#">Experiencia Proficional</a>
+                            <a class="header_menu_progeto" href="#">Habilidade</a>
+                            <a class="header_menu_progeto" href="#">Currículo</a>
+                            <a class="header_menu_progeto" href="#">Contato</a>
+                        </div>
+                    </header>
+                </div>
+                <div class="menu_principal_progetos">
+                    <header>
+                        <a href="#pg_inicial">
+                            <img class="img_menu" src="./imagem/pagina_inicial.jpg" alt="#">
+                         </a>
+                         <a href="#sobre-mim">
+                             <img class="img_menu" src="./imagem/sobre_mim.jpg" alt="#">
+                          </a>
+                          <a href="">
+                             <img class="img_menu" src="./imagem/projeto.jpg" alt="#">
+                          </a>
+                          <a href="">
+                             <img class="img_menu" src="./imagem/experiencia_proficional.jpg" alt="#">
+                          </a>
+                          <a href="">
+                             <img class="img_menu" src="./imagem/habilidade.jpg" alt="#">
+                          </a>
+                          <a href="">
+                             <img class="img_menu" src="./imagem/corriculo.jpg" alt="#">
+                          </a>
+                          <a href="">
+                             <img class="img_menu" src="./imagem/contato.jpg" alt="#">
+                          </a>
+                    </header>
+                </div>
+            </div>
+        </section>
     </section>
 </body>
 </html>
+              
+
+    
               
         
 
