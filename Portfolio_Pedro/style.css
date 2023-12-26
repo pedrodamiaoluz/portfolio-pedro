@@ -239,4 +239,54 @@ section{
     
 }
 
+.exp_proficional_container{
+    background-color: #e0decb;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 1px 3px 3px #979584;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menu_exp_prf{
+    background-color: #b0ae9c;
+    width: 200px;
+    height: 400px;
+}
+
+.img_bloco_exp_prf{
+    background-color: #b0ae9c;
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+}
+
+.img_exp_prf{
+    width: 150px;
+    height: 150px;
+}
+
+.header_menu_exp_prof{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu_principal_exp_prf{
+    background-color: #b0ae9c;
+    width: 50px;
+    height: 300px;
+    margin-top: 50px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
 
