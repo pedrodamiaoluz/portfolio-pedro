@@ -14,8 +14,8 @@
     padding: 0px;
 }
     
-section{
-    background-color: #7f7d6c;
+main{
+    background-image:linear-gradient(#7f7d6c, #979584, #b0ae9c);
     width: 1000px;
     margin: auto;
     padding-top: 5px;
@@ -287,6 +287,32 @@ section{
     margin-top: 50px;
     margin-right: 20px;
     border-radius: 50px;
+}
+
+.habilidade_container{
+    background-color: #e0decb;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 1px 3px 3px #979584;
+}
+
+.menu_bloco_habilidade{
+    background-color: #b0ae9c;
+    width: 200px;
+    height: 400px;
+}
+
+.img_bloco_hab{
+    background-color: #b0ae9c;
+    width: 150px;
+    height: 150px;
+}
+
+.img_hab{
+    width: 150px;
+    height: 150px;
 }
 
 
