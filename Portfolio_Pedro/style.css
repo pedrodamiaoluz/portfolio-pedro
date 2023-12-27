@@ -15,7 +15,7 @@
 }
     
 main{
-    background-image:linear-gradient(#7f7d6c, #979584, #b0ae9c);
+    background-image: radial-gradient(#7f7d6c, #979584, #b0ae9c);
     width: 1000px;
     margin: auto;
     padding-top: 5px;
@@ -28,7 +28,7 @@ main{
     width: 800px;
     height: 400px;
     margin: auto;
-    box-shadow: 1px 3px 3px #979584;
+    box-shadow: 1px 1px 3px 3px #979584;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -59,6 +59,7 @@ main{
     width: 350px;
     height: 400px;
     margin-left: 56px;
+    box-shadow: 1px 2px 3px #979584;
 }
 
 .inc_img{
@@ -73,6 +74,7 @@ main{
     margin-top: 50px;
     margin-left: 20px;
     border-radius: 50px;
+    box-shadow: 2px 2px 2px #979584;
     text-align: center;
 }
 
@@ -89,7 +91,7 @@ main{
     height: 400px;
     margin: auto;
     margin-top: 30px;
-    box-shadow: 1px 3px 3px #979584;
+    box-shadow: 1px 1px 3px 3px #979584;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -108,7 +110,7 @@ main{
 }
 
 .h2_conteudo{
-    padding-top: 30%;
+    padding-top: 25%;
     text-align: center;
     font-size: 25px;
     color: #0e9094;
@@ -133,6 +135,7 @@ main{
     width: 150px;
     height: 150px;
     margin-left: 25px;
+    box-shadow: 1px 1px 3px 3px #979584;
 }
 
 .img_sobre_mim{
@@ -163,6 +166,7 @@ main{
     margin-top: 50px;
     margin-right: 20px;
     border-radius: 50px;
+    box-shadow: 2px 2px 2px #979584;
 }
 
 .projeto_container{
@@ -171,7 +175,7 @@ main{
     height: 400px;
     margin: auto;
     margin-top: 30px;
-    box-shadow: 1px 3px 3px #979584;
+    box-shadow: 1px 1px 3px 3px #979584;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -200,6 +204,7 @@ main{
     width: 150px;
     height: 150px;
     margin-left: 25px;
+    box-shadow: 1px 1px 3px 3px #979584;
 }
 
 .img_proj{
@@ -214,6 +219,7 @@ main{
     margin-top: 50px;
     margin-right: 20px;
     border-radius: 50px;
+    box-shadow: 2px 2px 2px #979584;
 }
 
 
@@ -263,6 +269,7 @@ main{
     width: 150px;
     height: 150px;
     margin-left: 25px;
+    box-shadow: 1px 1px 3px 3px #979584;
 }
 
 .img_exp_prf{
@@ -287,6 +294,7 @@ main{
     margin-top: 50px;
     margin-right: 20px;
     border-radius: 50px;
+    box-shadow: 2px 2px 2px #979584;
 }
 
 .habilidade_container{
@@ -295,7 +303,11 @@ main{
     height: 400px;
     margin: auto;
     margin-top: 30px;
-    box-shadow: 1px 3px 3px #979584;
+    box-shadow: 1px 1px 3px 3px #979584;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
 }
 
 .menu_bloco_habilidade{
@@ -308,11 +320,34 @@ main{
     background-color: #b0ae9c;
     width: 150px;
     height: 150px;
+    margin-left: 25px;
+    box-shadow: 1px 1px 3px 3px #979584;
 }
 
 .img_hab{
     width: 150px;
     height: 150px;
+}
+
+.header_menu_hab{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.menu_principal_habilidade{
+    background-color: #b0ae9c;
+    width: 50px;
+    height: 300px;
+    margin-top: 50px;
+    margin-right: 20px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px #979584; 
 }
 
 
