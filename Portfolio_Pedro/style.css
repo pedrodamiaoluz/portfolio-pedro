@@ -83,6 +83,7 @@ main{
     right: 30px;
     margin: 5px;
     border-radius: 50%;
+    box-shadow: 1px 3px 3px #979584;
 }
 
 .sobre-mim{
@@ -128,6 +129,7 @@ main{
     background-color: #b0ae9c;
     width: 200px;
     height: 400px;
+    box-shadow: 1px 3px 3px #979584;
 }
 
 .img_menu_sobre_mim{
@@ -186,7 +188,7 @@ main{
     background-color: #b0ae9c;
     width: 200px;
     height: 400px;
-
+    box-shadow: 1px 3px 3px #979584;
 }
 
 .header_menu_progeto{
@@ -245,6 +247,12 @@ main{
     
 }
 
+.img_p1{
+    width: 170px;
+    height: 150px;
+    border-radius: 10px;
+}
+
 .exp_proficional_container{
     background-color: #e0decb;
     width: 800px;
@@ -262,6 +270,7 @@ main{
     background-color: #b0ae9c;
     width: 200px;
     height: 400px;
+    box-shadow: 1px 3px 3px #979584;
 }
 
 .img_bloco_exp_prf{
@@ -314,6 +323,7 @@ main{
     background-color: #b0ae9c;
     width: 200px;
     height: 400px;
+    box-shadow: 1px 3px 3px #979584;
 }
 
 .img_bloco_hab{
@@ -349,5 +359,61 @@ main{
     border-radius: 50px;
     box-shadow: 2px 2px 2px #979584; 
 }
+
+.curriculo_container{
+    background-color: #e0decb;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 1px 1px 3px 3px #979584;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menu_bloco_curriculo{
+    background-color: #b0ae9c;
+    width: 200px;
+    height: 400px; 
+    box-shadow: 1px 3px 3px #979584;
+}
+
+.img_bloco_curr{
+    background-color: #b0ae9c;
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+    box-shadow: 1px 1px 3px 3px #979584;
+    
+}
+
+.img_curr{
+    width: 150px;
+    height: 150px;
+}
+
+.header_menu_curr{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.menu_principal_curr{
+    background-color: #b0ae9c;
+    width: 50px;
+    height: 300px;
+    margin-top: 50px;
+    margin-right: 20px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px #979584; 
+}
+
 
 
