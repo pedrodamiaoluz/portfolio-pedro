@@ -420,6 +420,20 @@ main{
     text-align: center;
 }
 
+.corriculo_scrol{
+    background-color: #e0decb;
+    width: 450px;
+    height: 400px;
+    
+}
+
+.corr_scrol{
+    width: 450px;
+    height: 350px;
+    margin-top: 25px;
+    box-shadow: 1px 3px 3px #979584;
+}
+
 .menu_principal_curr{
     background-color: #b0ae9c;
     width: 50px;
@@ -490,11 +504,10 @@ main{
     width: 200px;
     height: 200px;
     margin-left: 10px;
-   
 }
 
 .lista_cont{
-    margin-top: 40px;
+    margin-top: 45px;
     margin-left: 5px;
     text-align: left;
 }
@@ -509,7 +522,8 @@ main{
 .lista_conteudo{
     margin-top: -26px;
     margin-left: 35px;
-    font-size: 12px;
+    font-size: 11px;
+    font-weight: bold;
 }
 
 .contate_nos{
@@ -540,8 +554,8 @@ main{
     outline: none;
 }
 
-.textarea{
-    padding: 5px;
+.cont_mensagem{
+    padding: 2px;
     margin-top: 13px;
     width: 80%;
 }
