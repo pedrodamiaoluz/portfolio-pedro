@@ -16,7 +16,8 @@
     
 main{
     background-image: radial-gradient(#7f7d6c, #979584, #b0ae9c);
-    width: 1000px;
+    width: 1025px;
+    height: 3000px;
     margin: auto;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -35,10 +36,12 @@ main{
 }
 
 .inc_titulo{
-    position: absolute;
-    top: 35%;
-    left: 40%;
-    transform: translate(-50%, -50%);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .h1_inc_titulo{
@@ -575,6 +578,7 @@ main{
     border-radius: 50px;
     box-shadow: 2px 2px 2px #979584; 
 }
+
 
 
 
