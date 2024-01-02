@@ -13,23 +13,58 @@
     margin: 0px;
     padding: 0px;
 }
+
+
+
+@media screen and (max-width: 757px){
+
     
-main{
+
+    .h1_inc_titulo, .p_inc_titulo{
+        font-size: 12px;
+        flex-direction: column;
+    }
+    
+    .inc_bloco_imagem, .inc_img{
+        max-width: 150px;
+        max-height: 250px;
+        flex-direction: column;
+    } 
+   
+    .pg_inc-conteudo{
+       flex-direction: column;
+    }
+    
+    .inc_bloco_menu, .menu_principal_sobre_mim, .menu_sb_mim{
+       display: none;
+    }
+
+    .main_prin{
+        flex-direction: column;
+     }
+
+
+}
+
+    
+.main_prin{
     background-image: radial-gradient(#7f7d6c, #979584, #b0ae9c);
-    width: 1025px;
-    height: 3000px;
-    margin: auto;
+    width: auto;
+    height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
 .pg_inc-conteudo{
     background-color: #e0decb;
-    width: 800px;
-    height: 400px;
-    margin: auto;
-    box-shadow: 1px 1px 3px 3px #979584;
+    width: auto;
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,11 +73,14 @@ main{
 .inc_titulo{
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 40px;
+    margin-left: 25%;
+    margin: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+
 
 .h1_inc_titulo{
     text-align: center;
@@ -56,6 +94,7 @@ main{
     margin-top: -5px;
   }
 
+  
 
 .inc_bloco_imagem{
     background-color: #e0decb;
@@ -91,8 +130,8 @@ main{
 
 .sobre-mim{
     background-color: #e0decb;
-    width: 800px;
-    height: 400px;
+    width: auto;
+    height: 500px;
     margin: auto;
     margin-top: 30px;
     box-shadow: 1px 1px 3px 3px #979584;
@@ -102,19 +141,22 @@ main{
     text-align: center;
 }
 
+
 .conteudo_sobre_mim{
     background-color: #e0decb;
-    width: 50%;
-    margin-left: 20px;
+    width: auto;
+   
 }
 
+
 .conteudo{
+    padding: 15%;
     text-align: center;
     color: #0e9094;
 }
 
 .h2_conteudo{
-    padding-top: 25%;
+    
     text-align: center;
     font-size: 25px;
     color: #0e9094;
@@ -125,6 +167,7 @@ main{
   font-size: 17px;
   padding: 10px;
   color: black;
+ 
 }
 
 
@@ -174,10 +217,11 @@ main{
     box-shadow: 2px 2px 2px #979584;
 }
 
+
 .projeto_container{
     background-color: #e0decb;
-    width: 800px;
-    height: 400px;
+    width: auto;
+    height: 500px;
     margin: auto;
     margin-top: 30px;
     box-shadow: 1px 1px 3px 3px #979584;
@@ -273,8 +317,8 @@ main{
 
 .exp_proficional_container{
     background-color: #e0decb;
-    width: 800px;
-    height: 400px;
+    width: auto;
+    height: 500px;
     margin: auto;
     margin-top: 30px;
     box-shadow: 1px 3px 3px #979584;
@@ -326,8 +370,8 @@ main{
 
 .habilidade_container{
     background-color: #e0decb;
-    width: 800px;
-    height: 400px;
+    width: auto;
+    height: 500px;
     margin: auto;
     margin-top: 30px;
     box-shadow: 1px 1px 3px 3px #979584;
@@ -380,8 +424,8 @@ main{
 
 .curriculo_container{
     background-color: #e0decb;
-    width: 800px;
-    height: 400px;
+    width: auto;
+    height: 500px;
     margin: auto;
     margin-top: 30px;
     box-shadow: 1px 1px 3px 3px #979584;
@@ -449,8 +493,8 @@ main{
 
 .contato_container{
     background-color: #e0decb;
-    width: 800px;
-    height: 400px;
+    width: auto;
+    height: 500px;
     margin: auto;
     margin-top: 30px;
     box-shadow: 1px 1px 3px 3px #979584;
