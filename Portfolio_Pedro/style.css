@@ -18,8 +18,12 @@
 }
 
 body{
-    background-color: #7f7d6c;
+    background-color: black;
     height: 100vh;
+}
+
+.flex{
+    display: flex;
 }
 
 .container{
@@ -33,25 +37,27 @@ header{
     padding: 30px 4%;
 }
 
-header .img_logo img{
-    margin-top: -30px;
-}
-
-header > .container{
+.container{
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
+header .img_logo img{
+    margin-top: -30px;
+}
+
+
+
 header a{
-    color: #b0ae9c;
+    color: #7f7d6c;
     text-decoration: none;
     display: inline-block;
     transform: .2s;
 }
 
 header a:hover{
-    color: black;
+    color: #e0decb;
     transform: scale(1.10);
     font-weight: 700;
 }
@@ -77,4 +83,52 @@ header .but_contato button{
 
 header .but_contato button:hover{
     box-shadow: 0px 0px 8px #0e9094;
+}
+
+/*Configurações do topo do site*/
+
+section.topo_site{
+    padding: 40px 4%;
+}
+
+section.topo_site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+
+
+.topo_site .text_topo_site h1{
+    color: #0e9094;
+    font-size: 48px;
+}
+
+.topo_site .text_topo_site p{
+    color: #0e9094;
+    font-size: 38px;
+    margin: -30px 0px;
+}
+
+.topo_site .text_topo_site p strong{
+    font-size: 48px;
+}
+
+.topo_site .img_topo_site img{
+    width: 300px;
+    height: 300px;
+    margin-left: 70%;
+    border-radius: 20px;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
 }
