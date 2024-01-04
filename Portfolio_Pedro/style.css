@@ -26,6 +26,17 @@ body{
     display: flex;
 }
 
+h2.titulo{
+    color: #e0decb;
+    text-align: center;
+    font-size: 38px;
+    margin-top: 70px;
+}
+
+h2.titulo strong{
+    color: #0e9094; 
+}
+
 .container{
     max-width: 1280px;
     margin: 0px auto;
@@ -34,10 +45,10 @@ body{
 /*Configurações Cabesalho*/
 
 header{
-    padding: 30px 4%;
+    padding: 40px 4%;
 }
 
-.container{
+header > .container{
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -46,8 +57,6 @@ header{
 header .img_logo img{
     margin-top: -30px;
 }
-
-
 
 header a{
     color: #7f7d6c;
@@ -97,7 +106,9 @@ section.topo_site .flex{
     gap: 90px;
 }
 
-
+.topo_site .text_topo_site{
+    text-align: center;
+}
 
 .topo_site .text_topo_site h1{
     color: #0e9094;
@@ -107,7 +118,7 @@ section.topo_site .flex{
 .topo_site .text_topo_site p{
     color: #0e9094;
     font-size: 38px;
-    margin: -30px 0px;
+    line-height: 20px;
 }
 
 .topo_site .text_topo_site p strong{
@@ -117,12 +128,10 @@ section.topo_site .flex{
 .topo_site .img_topo_site img{
     width: 300px;
     height: 300px;
-    margin-left: 70%;
     border-radius: 20px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
-
 
 @keyframes flutuar{
     0%{
@@ -132,3 +141,98 @@ section.topo_site .flex{
         top: 30px;
     }
 }
+
+/*Configurações sobre mim*/
+
+section .sobre_mim{
+    padding: 40px 4%;
+}
+
+.sobre_mim .text_sobre_mim{
+    color: #e0decb;
+    
+}
+
+.sobre_mim .text_sobre_mim > h3{
+    color: #e0decb;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.sobre_mim .text_sobre_mim > h3 strong{
+    color: #0e9094;
+}
+
+.sobre_mim .text_sobre_mim > p{
+    text-align: justify;
+    font-size: 18px;
+    width: 70%;
+    margin:20px auto;
+    text-indent:1.5em;
+}
+
+.sobre_mim .text_sobre_mim .rede_sociais_sobre_mim{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sobre_mim .text_sobre_mim .rede_sociais_sobre_mim a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.sobre_mim .text_sobre_mim .rede_sociais_sobre_mim button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    color: #e0decb;
+    background-color: #0e9094;
+    cursor: pointer;
+    font-size: 15px;
+    transition: .2s;
+}
+
+.sobre_mim .text_sobre_mim .rede_sociais_sobre_mim button:hover{
+    transform: scale(1.10);
+    box-shadow: 0px 0px 8px #0e9094;
+}
+
+/*Configurações sobre minha habilidades*/
+
+section .minhas_habilidades{
+    padding: 40px 4%;
+}
+
+section.minhas_habilidades .flex{
+   gap: 100px;
+   justify-content: center;
+}
+
+.minhas_habilidades .habilidade_box{
+     color: #e0decb;
+     padding: 40px;
+     border-radius: 20px;
+     margin-top: 40px;
+     transition: .2s;
+}
+
+.minhas_habilidades .habilidade_box:hover{
+    transform: scale(1.10);
+    box-shadow: 0px 0px 8px #e0decb9b;
+}
+
+
+.minhas_habilidades .habilidade_box i{
+    color: #0e9094;
+    font-size: 100px;
+}
+
+
+
+
+
+
+
+
