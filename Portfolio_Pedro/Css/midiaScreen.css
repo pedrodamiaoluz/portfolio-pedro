@@ -1,0 +1,64 @@
+
+@media screen and (max-width: 1058px){
+    /*Classe geral*/
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo_site .flex{
+        flex-direction: column-reverse;
+    }
+
+    section.topo_site .img_topo_site{
+         margin-top: -50px;
+    }
+
+    section.topo_site .text_topo_site h1{
+        font-size: 30px;
+    }
+
+    section.topo_site .text_topo_site p{
+        font-size: 23px;
+    }
+
+    section.topo_site .text_topo_site p strong{
+        font-size: 30px;
+    }
+
+     /*cabeçalho*/
+    .menu_dextop, .but_contato{
+        display: none;
+    }
+    /*Sobre mim*/
+    section.sobre_mim .text_sobre_mim h3{
+        font-size: 20px;
+    }
+    /*Minhas Habilidades*/
+    section.minhas_habilidades .habilidade_box{
+        margin: 20px auto;
+        
+    }
+    /*Meu Portfólio*/
+    section.meu_portfolio .img_port{
+        margin-top: 20px;
+    }
+    /*Formulario*/
+    section.formulario form{
+        width: 360px;
+    }
+
+    /*footer*/
+    
+    .container .flex{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .line_footer a{
+        font-size: 18px;
+    }
+
+    .container .borda{
+        margin-top: -30px;
+    }
+}
