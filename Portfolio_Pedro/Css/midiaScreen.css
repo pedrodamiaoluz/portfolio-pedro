@@ -1,4 +1,10 @@
 
+@media screen and (min-width: 1280px){
+    .but-abrir-menu-mob{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1058px){
     /*Classe geral*/
     .flex{

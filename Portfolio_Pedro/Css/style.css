@@ -49,7 +49,7 @@ h2.titulo strong{
 /*Configurações Cabesalho*/
 
 header{
-    padding: 40px 4%;
+    padding: 60px 4%;
 }
 
 header > .container{
@@ -69,7 +69,7 @@ header a{
     transition: .2s;
 }
 
-header nav.menu-mobile a:hover{
+header nav a:hover{
     color: #e0decb;
     transform: scale(1.10);
     font-weight: 700;
@@ -79,7 +79,7 @@ header nav ul{
     list-style-type: none;
 }
 
-header nav.menu-mobile ul li{
+header nav ul li{
     display: inline-block;
     padding: 10px 40px;
 }
@@ -102,13 +102,15 @@ header .but_contato button{
     padding: 20px 4%;
 }
 
+
+
 .menu-mobile{
     background-color: #000;
     height: 100vh;
     position: fixed;
     top: 0px;
     right: 0px;
-    z-index: 99999;
+    z-index: 2000;
     width: 0%;
     overflow: hidden;
     transition: .2s;
@@ -130,11 +132,16 @@ header .but_contato button{
 
 .menu-mobile .but-fechar i{
    color: #0e9094;
-   font-size: 40px;
+   font-size: 30px;
 }
 
 .menu-mobile nav ul{
     text-align: right;
+}
+
+.menu-mobile nav ul li {
+    display: block;
+    padding: 10px;
 }
 
 .menu-mobile nav ul li a{
@@ -143,11 +150,14 @@ header .but_contato button{
     font-weight: 400;
     padding: 20px 8%;
     display: block;
+    transition: .5s;
 }
 
 .menu-mobile nav ul a:hover{
     background-color: #0e9094;
     color: #000;
+    transform: scale(1.10);
+    font-weight: 500;
 }
 
 .overlay-menu-mob{
@@ -157,7 +167,7 @@ header .but_contato button{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 88888;
+    z-index: 1000;
     display: none;
 }
 
