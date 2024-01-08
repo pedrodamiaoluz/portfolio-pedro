@@ -15,3 +15,8 @@ menumobile.addEventListener('click', ()=>{
 overlay.addEventListener('click', ()=>{
     menumobile.classList.remove('abrir_menu')
 })
+
+window.addEventListener("scroll", function(){
+    let header = document.querySelector('#header')
+    header.classList.toggle('rolagem', window.scrollY > 0)
+})

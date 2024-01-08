@@ -35,6 +35,7 @@
     .menu_dextop, .but_contato{
         display: none;
     }
+
     /*Sobre mim*/
     section.sobre_mim .text_sobre_mim h3{
         font-size: 20px;

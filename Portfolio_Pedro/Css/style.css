@@ -49,7 +49,18 @@ h2.titulo strong{
 /*Configurações Cabesalho*/
 
 header{
-    padding: 60px 4%;
+    width: 100%;
+    padding: 40px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .2s;
+}
+
+header.rolagem{
+    background-color: #000000;
+    padding: 20px 4%;
+
 }
 
 header > .container{
@@ -176,6 +187,7 @@ header .but_contato button{
 section.topo_site{
     padding: 40px 4%;
     margin-bottom: 70px;
+    margin: 100px 0;
 }
 
 section.topo_site .flex{
