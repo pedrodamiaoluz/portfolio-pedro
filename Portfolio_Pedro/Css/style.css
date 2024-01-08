@@ -69,17 +69,17 @@ header a{
     transition: .2s;
 }
 
-header a:hover{
+header nav.menu-mobile a:hover{
     color: #e0decb;
     transform: scale(1.10);
     font-weight: 700;
 }
 
-header nav, ul{
+header nav ul{
     list-style-type: none;
 }
 
-header nav, ul, li{
+header nav.menu-mobile ul li{
     display: inline-block;
     padding: 10px 40px;
 }
@@ -92,6 +92,73 @@ header .but_contato button{
     border: 0px;
     border-radius: 30px;
     cursor: pointer;
+}
+
+/*Configuração do menu mobile*/
+
+.but-abrir-menu-mob i{
+    color: #0e9094;
+    font-size: 40px;
+    padding: 20px 4%;
+}
+
+.menu-mobile{
+    background-color: #000;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.menu-mobile.abrir_menu{
+    width: 70%;
+}
+
+.menu-mobile.abrir_menu ~ .overlay-menu-mob{
+    display: block;
+}
+
+
+.menu-mobile .but-fechar{
+    padding: 20px 5%;
+    text-align: left;
+} 
+
+.menu-mobile .but-fechar i{
+   color: #0e9094;
+   font-size: 40px;
+}
+
+.menu-mobile nav ul{
+    text-align: right;
+}
+
+.menu-mobile nav ul li a{
+    color: #e0decb;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 8%;
+    display: block;
+}
+
+.menu-mobile nav ul a:hover{
+    background-color: #0e9094;
+    color: #000;
+}
+
+.overlay-menu-mob{
+    background-color: #000000c3;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
 }
 
 /*Configurações do topo do site*/
