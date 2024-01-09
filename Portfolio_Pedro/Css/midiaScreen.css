@@ -16,7 +16,8 @@
     }
 
     section.topo_site .img_topo_site{
-         margin-top: -50px;
+         margin-top: 22%;
+         
     }
 
     section.topo_site .text_topo_site h1{
@@ -35,6 +36,16 @@
     .menu_dextop, .but_contato{
         display: none;
     }
+    
+    header{
+        position: absolute;
+    }
+
+    .rolagem{
+        background-color: #000000;
+        padding: 20px 4%;
+        position: fixed;
+    }
 
     /*Sobre mim*/
     section.sobre_mim .text_sobre_mim h3{
@@ -43,9 +54,9 @@
     /*Minhas Habilidades*/
     section.minhas_habilidades .habilidade_box{
         margin: 20px auto;
-        
     }
     /*Meu Portfólio*/
+  
     section.meu_portfolio .img_port{
         margin-top: 20px;
     }

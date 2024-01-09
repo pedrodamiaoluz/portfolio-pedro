@@ -60,7 +60,7 @@ header{
 header.rolagem{
     background-color: #000000;
     padding: 20px 4%;
-
+    box-shadow: 0 0 8px #e0decb40;
 }
 
 header > .container{
@@ -113,8 +113,6 @@ header .but_contato button{
     padding: 20px 4%;
 }
 
-
-
 .menu-mobile{
     background-color: #000;
     height: 100vh;
@@ -134,7 +132,6 @@ header .but_contato button{
 .menu-mobile.abrir_menu ~ .overlay-menu-mob{
     display: block;
 }
-
 
 .menu-mobile .but-fechar{
     padding: 20px 5%;
@@ -185,9 +182,8 @@ header .but_contato button{
 /*Configurações do topo do site*/
 
 section.topo_site{
-    padding: 40px 4%;
-    margin-bottom: 70px;
-    margin: 100px 0;
+    padding: 40px 4%; 
+    margin: 10% 0;
 }
 
 section.topo_site .flex{
