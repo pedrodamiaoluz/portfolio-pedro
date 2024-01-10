@@ -34,11 +34,41 @@ window.addEventListener("scroll", function(){
 
     window.addEventListener('submit', (enviar) => {
         enviar.preventDefault()
-
+        //verificar se o nome esta vazio
         if(nome.value == ''){
-            alert('erro')
+            alert('Por favor, preencha seu nome!!!')
+            return
         }
-
+        else if(email.value == '' || !validaremail(email.value)){
+            alert('Por favor, preencha seu email!!!')
+            return 
+        }
+        else if(telefone.value == '' || !telefones(telefone.value)){
+            alert('Número de telefone invalido!!!')
+            return 
+        }
+        else if(assunto.value == ''){
+            alert('Por favor, Informe a Mensagem!!!')
+            return 
+        }
+        
+    
         form.submit()
     })
+    
+    // função para validar o email
+    function validaremail(email){
+        let emailRegex = new RegExp(
+            // criar uma regex para validar o email
+            /^[a-zA-Z0-9._]+@[a-zA-Z0-9._]+\.[a-zA-Z]{2,}$/
+            )
+
+            if(emailRegex.test(email)){
+                return true
+            }
+                return false
+            
+        }
+
+        
 
