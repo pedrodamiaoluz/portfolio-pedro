@@ -55,18 +55,18 @@ h2.titulo strong{
 header{
     width: 100%;
     padding: 40px 4% 0px 4%;
-    position: fixed;
+    box-shadow: 0 0 8px #e0decb40;
+    /*position: fixed;
     top: 0;
     left: 0;
-    box-shadow: 0 0 8px #e0decb40;
-    transition: .2s;
+    transition: .2s;*/
 }
 
-header.rolagem{
+/*header.rolagem{
     background-color: #000000;
     padding: 30px 4% 0px 4%;
     box-shadow: 0 0 8px #e0decb40;
-}
+}*/
 
 header > .container{
     display: flex;
@@ -188,7 +188,7 @@ header .but_contato button{
 
 section.topo_site{
     padding: 40px 4%; 
-    margin: 10% 0;
+    margin-bottom: 10%;
 }
 
 section.topo_site .flex{
