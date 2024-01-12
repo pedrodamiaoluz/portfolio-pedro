@@ -54,8 +54,7 @@ h2.titulo strong{
 
 header{
     width: 100%;
-    
-    padding: 30px 0.1% 0px 0.1%;
+    padding: 30px 2% 0 2%;
     box-shadow: 0 0 8px #e0decb40;
     /*position: fixed;
     top: 0;
@@ -77,6 +76,7 @@ header > .container{
 
 header .img_logo img{
     margin-top: -30px;
+    margin-right: 50px;
 }
 
 header a{
@@ -103,6 +103,7 @@ header nav ul li{
 
 header .but_contato button{
     background-color: #0e9094;
+    margin-left: 50px;
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 400;
