@@ -54,8 +54,9 @@ h2.titulo strong{
 
 header{
     width: 100%;
-    padding: 40px 2% 0px 2%;
+    padding: 40px 2px 0px 2px;
     box-shadow: 0 0 8px #e0decb40;
+    margin: auto;
     /*position: fixed;
     top: 0;
     left: 0;
