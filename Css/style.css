@@ -62,6 +62,9 @@ header{
     transition: .2s;*/
 }
 
+header > .flex{
+    padding: 30px 4%;
+}
 /*header.rolagem{
     background-color: #000000;
     padding: 30px 4% 0px 4%;
