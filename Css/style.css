@@ -46,7 +46,7 @@ h2.titulo strong{
 }
 
 .container{
-    max-width: 1363px;
+    max-width: 1590px;
     margin: 0px auto;
 }
 
@@ -188,7 +188,7 @@ header .but_contato button{
 
 section.topo_site{
     padding: 40px 4%; 
-    margin-bottom: 10%;
+    margin: 30px auto 80px auto;
 }
 
 section.topo_site .flex{
