@@ -187,7 +187,7 @@ header .but_contato button{
 /*Configurações do topo do site*/
 
 section.topo_site{
-    padding: 40px 2%; 
+    padding: 40px 4%; 
     margin: 30px auto 80px auto;
 }
 
@@ -236,7 +236,7 @@ section.topo_site .flex{
 /*Configurações sobre mim*/
 
 section .sobre_mim{
-    padding: 40px 2%;
+    padding: 40px 4%;
 }
 
 .sobre_mim .text_sobre_mim{
@@ -293,7 +293,7 @@ section .sobre_mim{
 /*Configurações sobre minha habilidades*/
 
 section .minhas_habilidades{
-    padding: 40px 2%;
+    padding: 40px 4%;
 }
 
 section.minhas_habilidades .flex{
@@ -324,7 +324,7 @@ section.minhas_habilidades .flex{
 
 /*configuração sobre meu portfólio*/
 section.meu_portfolio{
-    padding: 40px 2%;
+    padding: 40px 4%;
     box-shadow: 0px 0px 20px 8px #e0decb18;
     
 }
@@ -379,7 +379,7 @@ section.meu_portfolio .flex{
 /*Configuração sobre meu contato*/
 
 section.formulario{
-    padding: 40px 2%;
+    padding: 40px 4%;
 }
 
 
@@ -427,7 +427,7 @@ form .button_contate_me input{
 /*Configuração sobre o rodape*/
 
 footer{
-    padding: 40px 2%;
+    padding: 40px 4%;
     box-shadow: 0 0 40px 10px #e0decb18;
 }
 
