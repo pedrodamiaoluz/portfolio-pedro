@@ -16,7 +16,7 @@
     }
 
     section.topo_site .img_topo_site{
-         margin-top: 22%;
+         margin-top: 5px;
          
     }
 
@@ -37,14 +37,9 @@
         display: none;
     }
     
-    header{
-        position: absolute;
-    }
-
     .rolagem{
         background-color: #000000;
         padding: 20px 4%;
-        position: fixed;
     }
 
     /*Sobre mim*/
