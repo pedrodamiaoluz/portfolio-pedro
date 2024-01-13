@@ -393,6 +393,7 @@ form{
     justify-content: center;
     gap: 10px;
     margin-top: 50px;
+    
 }
 
 form input, form textarea{
@@ -428,7 +429,7 @@ form .button_contate_me input{
 /*Configuração sobre o rodape*/
 
 footer{
-    padding: 40px 4%;
+    padding: 30px 4%;
     box-shadow: 0 0 40px 10px #e0decb18;
 }
 
@@ -442,11 +443,19 @@ footer .img_logo img{
 }
 
 footer .line_footer{
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .borda{
     border-top: 2px solid #0e9094;
+    margin-top: -50px;
+}
+
+footer .centralizar{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 8px;
 }
 
 footer .line_footer p i{
