@@ -32,7 +32,6 @@ overlay.addEventListener('click', ()=>{
     let telefone = document.querySelector('input#telefone')
     let assunto = document.querySelector('textarea#assunto')
     
-
     window.addEventListener('submit', (enviar) => {
         enviar.preventDefault()
         //verificar se o nome esta vazio
@@ -50,8 +49,6 @@ overlay.addEventListener('click', ()=>{
             alert('Por favor, Informe a Mensagem!!!')
             return 
         }
-        
-    
         form.submit()
     })
     
@@ -68,6 +65,7 @@ overlay.addEventListener('click', ()=>{
                 return false
             
         }
+
 
         
 
