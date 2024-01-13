@@ -97,31 +97,31 @@ revelar.reveal('.img_port-3',{
 // Seção do Formulário
 
 revelar.reveal('.form-1',{
-    duration: 900,
+    duration: 800,
     distance: '90px',
     delay: 500
 })
 
 revelar.reveal('.form-2',{
-    duration: 900,
+    duration: 800,
     distance: '90px',
     delay: 1000
 })
 
 revelar.reveal('.form-3',{
-    duration: 900,
+    duration: 800,
     distance: '90px',
     delay: 1500
 })
 
 revelar.reveal('.textarea',{
-    duration: 900,
+    duration: 800,
     distance: '90px',
     delay: 2000
 })
 
 revelar.reveal('.button_contate_me',{
-    duration: 900,
+    duration: 800,
     distance: '90px',
     delay: 2500
 })
