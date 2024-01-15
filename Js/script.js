@@ -48,19 +48,6 @@ overlay.addEventListener('click', ()=>{
             alert('Por favor, Informe a Mensagem!!!')
             return 
         }
-
-        Email.send({
-            Host : "smtp.elasticemail.com",
-            Username: "pedroluzzz28@gmail.com",
-            Password: "0142C2D5E8BF0F34ECF1C87504E054668007",
-            To: 'pedroluzzz28@gmail.com',
-            From:  "pedroluzzz28@gmail.com",
-            Subject: `${nome} Enviando Email`,
-            Body: `Email: ${email} \n \n ${assunto}`
-        }).then(() => {
-            alert('Mensagem enviada')
-            location.reload()
-        });
         form.submit()
     })
 
