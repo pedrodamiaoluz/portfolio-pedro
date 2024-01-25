@@ -123,7 +123,6 @@ revelar.reveal('.textarea',{
 revelar.reveal('.button_contate_me',{
     duration: 800,
     distance: '90px',
-    delay: 2500
 })
 
 
